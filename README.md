@@ -5,7 +5,7 @@ This repository contains the implementation of the paper:
 
 **PolyWER**: A Holistic Evaluation Framework for Code-Switched Speech Recognition
 
-<a href=''> <a href=''><img src='https://img.shields.io/badge/paper-Paper-red'></a> &nbsp;  <a href='https://huggingface.co/datasets/sqrk/mixat-tri'><img src='https://img.shields.io/badge/data-Dataset-green'></a> &nbsp; 
+<a href=''> <a href=''><img src='https://img.shields.io/badge/Paper-ACL Anthology-red'></a> &nbsp;  <a href='https://huggingface.co/datasets/sqrk/mixat-tri'><img src='https://img.shields.io/badge/Dataset-Mixat-green'></a> &nbsp; [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 
 <div>
@@ -16,11 +16,10 @@ This repository contains the implementation of the paper:
     <a href='https://linkedin.com/in/hanan-aldarmaki/' target='_blank'>Hanan Aldarmaki </a>&emsp;
 </div>
 <br>
-<p align="left" float="center">
+<p align="center" float="center">
   <img src="img/MBZUAI-logo.png" height="40" />
 </p>
 
-<br>
 <i><strong><a href='' target='_blank'>EMNLP 2024</a></strong></i>
 <br>
 </div>
@@ -54,7 +53,7 @@ Please note that we had to modify the mrwer code slightly to be able to run it (
 
 
 ## Dataset
-The Mixat dataset with the additional transcriptions can be found on [HuggingFace](https://huggingface.co/datasets/sqrk/mixat-tri).
+We used the [Mixat](https://github.com/mbzuai-nlp/mixat) dataset for our experiments. The original dataset only contains the transcriptions with the English code-switching in latin characters. We augment these transcriptions with two additional dimensions: transliterations and translations. These can be found on [HuggingFace](https://huggingface.co/datasets/sqrk/mixat-tri).
 
 ```python
 >>> from datasets import load_dataset
@@ -74,11 +73,35 @@ DatasetDict({
 ```
 
 
-# Acknowledgements
-If you use any PolyWER, please cite 
+## License
+This metric is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+
+## Acknowledgements
+If you use PolyWER, please cite the following papers:
 
 ``` 
 @inproceedings{,
   
 }
+
+@inproceedings{al-ali-aldarmaki-2024-mixat,
+    title = "Mixat: A Data Set of Bilingual Emirati-{E}nglish Speech",
+    author = "Al Ali, Maryam Khalifa  and
+      Aldarmaki, Hanan",
+    booktitle = "Proceedings of the 3rd Annual Meeting of the Special Interest Group on Under-resourced Languages @ LREC-COLING 2024",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.sigul-1.26",
+    pages = "222--226"
+}
+
 ```
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
