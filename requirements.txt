@@ -1,0 +1,7 @@
+torch==2.4.1
+numpy==1.26.4
+jiwer==3.0.4
+camel_tools==1.5.5
+datasets==3.0.0
+librosa==0.10.2.post1
+soundfile==0.12.1
