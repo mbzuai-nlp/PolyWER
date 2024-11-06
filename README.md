@@ -74,19 +74,24 @@ DatasetDict({
 
 
 ## License
-This metric is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+This data is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
 
 ## Acknowledgements
-If you use PolyWER, please cite the following papers:
+If you use PolyWER, please cite the following paper:
 
 ``` 
 @inproceedings{,
   
 }
 
+```
+
+If you use the Mixat dataset (audio and\or text), please also cite the following paper:
+
+``` 
 @inproceedings{al-ali-aldarmaki-2024-mixat,
     title = "Mixat: A Data Set of Bilingual Emirati-{E}nglish Speech",
     author = "Al Ali, Maryam Khalifa  and
