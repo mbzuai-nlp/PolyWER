@@ -5,7 +5,7 @@ This repository contains the implementation of the paper:
 
 **PolyWER**: A Holistic Evaluation Framework for Code-Switched Speech Recognition
 
-<a href=''> <a href=''><img src='https://img.shields.io/badge/Paper-ACL Anthology-red'></a> &nbsp;  <a href='https://huggingface.co/datasets/sqrk/mixat-tri'><img src='https://img.shields.io/badge/Dataset-Mixat-green'></a> &nbsp; [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+<a href=''> <a href='https://aclanthology.org/2024.findings-emnlp.356.pdf'><img src='https://img.shields.io/badge/Paper-ACL Anthology-red'></a> &nbsp;  <a href='https://huggingface.co/datasets/sqrk/mixat-tri'><img src='https://img.shields.io/badge/Dataset-Mixat-green'></a> &nbsp; [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 
 <div>
