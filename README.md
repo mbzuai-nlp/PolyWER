@@ -83,9 +83,21 @@ This data is licensed under the [Creative Commons Attribution-NonCommercial-Shar
 If you use PolyWER, please cite the following paper:
 
 ``` 
-@inproceedings{,
-  
-}
+@inproceedings{kadaoui-etal-2024-polywer,
+    title = "{P}oly{WER}: A Holistic Evaluation Framework for Code-Switched Speech Recognition",
+    author = "Kadaoui, Karima  and
+      Ali, Maryam Al  and
+      Toyin, Hawau Olamide  and
+      Mohammed, Ibrahim  and
+      Aldarmaki, Hanan",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.356/",
+    pages = "6144--6153",
+    }
 
 ```
 
